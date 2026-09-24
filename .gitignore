@@ -1,0 +1,5 @@
+node_modules/
+.appium/
+logs/
+.DS_Store
+*.log
