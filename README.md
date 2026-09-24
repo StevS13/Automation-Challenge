@@ -24,27 +24,27 @@ Rule:
 
 ---
 
-## 🚀 QA Automation Implementation (My Solution)
+## QA Automation Implementation (My Solution)
 
 QA Automation test suite for 99.co Android application built with WebdriverIO, Appium v2, and Cucumber BDD framework.
 
-### 🛠️ Tech Stack
+### Tech Stack
 - **Framework:** WebdriverIO v8
 - **Driver:** Appium v2
 - **BDD Framework:** Cucumber
 - **Module System:** CommonJS (`.cjs`)
 
-### 🧪 Automated Test Scenarios
+### Automated Test Scenarios
 1. **Homepage Verification:** Verifies that the search bar section is displayed on launch.
 2. **Search Interaction:** Clicks the search bar and inputs a location (`"Jakarta Barat"`).
 3. **Bottom Navigation:** Navigates through bottom navigation tabs (`"Hunian Baru"` and `"Akun Saya"`).
 
-### 📁 Project Structure
+### Project Structure
 - `features/homepage.feature` : Gherkin feature scenarios
 - `features/pageobjects/home.page.js` : Page Object Model locators and functions
 - `features/step-definitions/steps.js` : Cucumber step implementation
 
-### ▶️ How to Run Tests
+### How to Run Tests
 1. Start your Android Emulator.
 2. Execute the test command in your terminal:
    ```bash
